@@ -6476,7 +6476,7 @@ button.close {
 }
 .carousel-indicators {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 50%;
     z-index: 15;
     width: 60%;
@@ -6542,7 +6542,7 @@ button.close {
         padding-bottom: 30px
     }
     .carousel-indicators {
-        bottom: 20px
+        bottom: 0px
     }
 }
 .btn-group-vertical>.btn-group:after,
@@ -18729,6 +18729,7 @@ section .content.bg-black .pagination-custom-1 .cbp-nav-pagination-item::after {
     text-align: center;
     opacity: 1
 }
+
 .block-contact-1 .tab-content .row .col-xs-4 .container-social-item:hover .container-icon span {
     -webkit-transition: all .2s cubic-bezier(0, .25, 0, .99);
     transition: all .2s cubic-bezier(0, .25, 0, .99);
